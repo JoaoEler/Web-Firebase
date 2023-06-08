@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/editar_vacina.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap" rel="stylesheet">
+        <title>My Health</title>
+    </head>
+    <body>
+        <header>
+            <div class="headerbox">
+                <img class="icon" src="assets/icon-vaccine.png" />
+                <span>MyHealth</span>
+            </div>
+    
+            <div class="btns">
+                <button class="bttn1"><a href="home.html" class="a1">Minhas vacinas</a></button>
+                <button class="bttn2"><a href="index.html" class="a1">Logout</a></button>
+            </div>
+        </header>
+        <main class="container">
+            <div class="box">
+                <button type="submit" class="btnexc" > <img src="assets/trash.png" class="btnimg" alt=""> Excluir</button>
+                <form id="edit" action="#">
+                    <div class="inputdiv">
+                        <label for="dataVac" class="lbl">Data de vacinação</label> 
+                        <input type="date" class="dataVac" name="datev" /> 
+                    </div>
+                    <div class="inputdiv">
+                        <label for="nameInput" class="lbl">Vacina</label>
+                        <input type="text" placeholder="Vacina" class="nameInput" name="name">
+                    </div>
+                    <div class="inputdiv">
+                        <label class="lbl">Dose</label>
+                        <div class="selectors">
+                            <input type="radio" class="dose1" name="dose" value="dose1" />
+                            <label for="dose1" class="lbl2">1a dose</label>
+                            <input type="radio" class="dose2" name="dose" value="dose2" />
+                            <label for="dose2" class="lbl2">2a dose</label>
+                            <input type="radio" class="dose3" name="dose" value="dose3" />
+                            <label for="dose3" class="lbl2">3a dose</label>
+                            <input type="radio" class="ref" name="dose" value="reforco" />
+                            <label for="ref" class="lbl2">Reforço</label>
+                            <input type="radio" class="un" name="dose" value="unica" />
+                            <label for="un" class="lbl2">Dose única</label>
+                        </div>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="pic" class="lbl">Comprovante da vacina</label>
+                        <input type="file" class="pic" name="pic" >
+                    </div>
+                    <img id="imagem" src="#" alt="">
+                    <div class="inputdiv">
+                        <label for="dataNext" class="lbl">Próxima vacinação</label> 
+                        <input type="date" class="dataNext" name="daten" /> 
+                    </div>
+                </form>
+
+                <div class="popup" id="popup">
+                    <div class="center-wrapper">
+                        <div class="mainpop">
+                            <h2>Tem certeza que deseja remover esta vacina?</h2>
+                            <div class="btnsbox">
+                                <button class="yes" >SIM</button>
+                                <button class="no" >CANCELAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+                    
+                <button type="submit" class="btn" form="edit" >Editar</button>
+            </div>
+        </main>
+        <script type="module" src="scripts/firebase.js"></script>
+        <script type="module" src="scripts/editvac.js"></script>
+        <script type="module" src="scripts/logout.js"></script>
+    </body>
+</html>

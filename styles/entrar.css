@@ -1,0 +1,90 @@
+.container {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+input {
+    border: 0px solid;
+    width: 500px;
+    height: 36px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #3F92C5;
+    background: #fff;
+
+    
+    margin: 15px 0;    
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 50px;
+    box-sizing: border-box;
+
+    width: 188px;
+    height: 50px;
+
+    background: #49B976;
+    border: 1px solid #37BD6D;
+
+    color: #fff;
+}
+
+.lbl {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 104px;
+    height: 43px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.inputdiv {
+    display: flex;
+}
+
+.a2 {
+    margin-top: 25px;
+    width: 231px;
+    height: 29px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-decoration-line: underline;
+
+    color: #419ED7;
+}

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    background: #8FE1D9;
+}
+
+button {
+    box-sizing: border-box;
+    background: #419ED7;
+    border: 1px solid #419ED7;
+}
+
+.a1 {
+    width: 165px;
+    height: 34px;
+    left: 1241px;
+    top: 26px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 198px;
+    height: 52px;
+    left: 1225px;
+    top: 17px;
+
+    margin-right: 17px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+
+span{
+    width: 207px;
+    height: 57px;
+    left: 85px;
+    top: 15px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #419ED7;
+}
+
+.icon {
+    width: 51px;
+    height: 51px;
+    left: 18px;
+    top: 20px;
+    margin-right: 16px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+} 
+
+.text {
+    position: absolute;
+    width: 841px;
+    height: 165px;
+    left: 25%;
+    top: 413px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #419ED7;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    padding: 0;
+    margin: 0;
+    z-index:-1;
+    position: relative;
+    display:block;
+    
+    
+    background: linear-gradient(179.55deg, rgba(255, 255, 255, 0.24) 15.85%, rgba(255, 255, 255, 0.48) 40.1%, rgba(255, 255, 255, 0) 68.12%);
+    filter: grayscale(100%);
+}
+
+.backbox {
+    background: linear-gradient(179.55deg, rgba(255, 255, 255, 0.24) 15.85%, rgba(255, 255, 255, 0.48) 40.1%, rgba(255, 255, 255, 0) 68.12%);
+    top: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.btn2 {
+    position: relative;
+    width: 304px;
+    height: 59px;
+    top: 662px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

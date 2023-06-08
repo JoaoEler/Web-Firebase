@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/home.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap" rel="stylesheet">
+        <title>My Health</title>
+    </head>
+    <body>
+        <header>
+                <div class="headerbox">
+                    <img class="icon" src="assets/icon-vaccine.png" />
+                    <span>MyHealth</span>
+                </div>
+        
+                <div class="btns">
+                    <button class="bttn1"><a href="home.html" class="a1">Minhas vacinas</a></button>
+                    <button class="bttn2"><a href="index.html" class="a1">Logout</a></button>
+                </div>
+            </header>
+
+        <div class="box">
+            <div class="search">
+                <img src="assets/iconsearch.png" alt="Search" class="ico">
+                <input id="searchInput" class="inp" placeholder="Pesquisar vacina..." />
+            </div>
+
+            <div class="gridbox" id="itemsContainer" >
+                
+                <!-- <div class="items">
+                    <h1 class="title">TIPO</h1>
+                    <div class="dosebox">
+                        <h2 class="dose">Dose única</h2>
+                    </div>
+                    <h2 class="data">18/04/2023</h2>
+
+                    <img src="assets/image-comprovante.png" alt="img">
+            
+                    <h3 class="dosenx">Prox Dose</h3>
+                </div> -->
+            </div>
+            <div class="box2">
+                <span class="err" id="err">Nenhuma vacina encontrada.</span>
+                <span class="err" id="busc">Buscando...</span>
+
+                <button class="btnew"><a href="nova_vacina.html" class="a1">Nova vacina</a></button>
+            </div>
+        </div>
+        <script type="module" src="scripts/firebase.js"></script>
+        <script type="module" src="scripts/loadvac.js"></script>
+        <script type="module" src="scripts/logout.js"></script>
+    </body>
+</html>

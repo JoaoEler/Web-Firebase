@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #ADD5D0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    background: #C1E7E3;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span{
+    width: 207px;
+    height: 57px;
+    left: 85px;
+    top: 15px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #419ED7;
+}
+
+.icon {
+    width: 51px;
+    height: 51px;
+    left: 18px;
+    top: 20px;
+    margin-right: 16px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+} 
+
+button {
+    box-sizing: border-box;
+    background: #419ED7;
+    border: 1px solid #419ED7;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.err {
+    visibility: hidden;
+    width: 300px;
+    height: 29px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FD7979;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.btn {
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+    width: 188px;
+    height: 50px;
+
+    background: #49B976;
+    border: 1px solid #37BD6D;
+}
+
+.a1 {
+    width: 165px;
+    height: 34px;
+    left: 1241px;
+    top: 26px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

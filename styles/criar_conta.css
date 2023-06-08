@@ -1,0 +1,147 @@
+.container {
+    margin: 0;
+    padding: 0;
+
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nameInput, .passwordInput, .repeatInput, .emailInput, .dataNasc {
+    border: 0px solid;
+    width: 500px;
+    height: 36px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #3F92C5;
+    background: #fff;
+
+    
+    margin: 15px 0;    
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 87px;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 35px;
+    box-sizing: border-box;
+
+    width: 188px;
+    height: 50px;
+
+    background: #49B976;
+    border: 1px solid #37BD6D;
+
+    color: #fff;
+}
+
+.lbl {
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 43px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.lbl2 {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    height: 43px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+
+    color: #FFFFFF;
+    min-width: 70px;
+}
+
+.inputdiv {
+    display: flex;
+}
+
+/* .a1 {
+    margin-top: 25px;
+    width: 231px;
+    height: 29px;
+
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-decoration-line: underline;
+
+    color: #419ED7;
+} */
+
+.selectors{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: -55px;
+}
+
+#sx {
+    margin-top: 5px;
+}
+
+.masc, .fem {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+
+    width: 35px;
+    height: 35px;
+
+    color: #3F92C5;
+    background: #fff;
+    outline: none;
+
+    border: 0px solid;
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "web": "polymer serve"
+  },
+  "dependencies": {
+    "firebase": "^9.22.1"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.9.11"
+  }
+}

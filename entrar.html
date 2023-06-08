@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/entrar.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap" rel="stylesheet">
+        <title>My Health</title>
+    </head>
+    <body>
+        <header>
+            <div class="headerbox">
+                <img class="icon" src="assets/icon-vaccine.png" />
+                <span>MyHealth</span>
+            </div>
+
+            <div></div>
+        </header>
+
+        <main class="container">
+            <div class="box">
+                <form id="login" action="#">
+                    <div class="inputdiv">
+                        <label for="emailInput" class="lbl">Email </label>
+                        <input type="text" placeholder="Nome" class="emailInput" name="email">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="passwordInput" class="lbl">Senha </label>
+                        <input type="password" placeholder="Senha" class="passwordInput" name="password">    
+                    </div>
+
+                    <span class="err">E-mail ou senha inválidos.</span>
+                </form>
+                
+                <button type="submit" class="btn" form="login" >Entrar</button>
+
+                <a href="recuperar.html" class="a2">Esqueci minha senha</a>
+            </div>
+        </main>
+        <script type="module" src="scripts/firebase.js"></script>
+        <script type="module" src="scripts/auth.js"></script>
+    </body>
+</html>
